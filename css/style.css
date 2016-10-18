@@ -1,0 +1,52 @@
+body {
+  background-color: #333;
+}
+
+.btn {
+  color: #111;
+}
+
+.lead {
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+main {
+  width: 600px;
+  margin: 60px auto;
+  background-color: #111;
+  min-height: 500px;
+}
+
+.game {
+  padding-top: 100px;
+  margin-bottom: 150px;
+}
+
+.game > ul {
+  list-style-type: none;
+}
+
+.game > ul > li {
+  border: 5px solid #ccc;
+  padding: 50px;
+  display: inline;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.game > ul > li:nth-child(1){
+  background-color: brown;
+}
+
+.game > ul > li:nth-child(2){
+  background-color: gold;
+}
+
+.game > ul > li:nth-child(3){
+  background-color: green;
+}
+
+.game > ul > li:nth-child(4){
+  background-color: navy;
+}
