@@ -26,7 +26,7 @@ $(function() {
         },
         play: function(repeat) {
             this.record = false;
-            if (this.level < 5 || repeat) {
+            if (this.level < 20 || repeat) {
                 if (!repeat) {
                     this.level++;
                     $('.level').text("Level " + this.level);
