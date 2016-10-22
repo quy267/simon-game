@@ -6,8 +6,14 @@ body {
   color: #111;
 }
 
-.lead {
+.level {
   font-size: 3em;
+  margin-bottom: 0;
+}
+
+.msg {
+  font-size: 1.5em;
+  color: #ccc;
   margin-bottom: 50px;
 }
 
