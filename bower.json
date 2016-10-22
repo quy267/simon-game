@@ -1,0 +1,22 @@
+{
+  "name": "simon-game",
+  "homepage": "https://github.com/santakmishra/simon-game",
+  "authors": [
+    "Santak Mishra <santakmishra@outlook.com>"
+  ],
+  "description": "A simple Simon game written in Javascript",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
